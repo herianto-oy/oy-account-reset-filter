@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates>
+    <t t-inherit="account_reports.AccountReportCustomizable" t-inherit-mode="extension">
+        <xpath expr="//t[@t-set-slot='layout-actions']/div" position="inside">
+            <button
+                class="btn btn-secondary o_account_reset_filter"
+                t-on-click="(ev) => this.filterResetOnClick(ev)">
+                    <i class="fa fa-undo me-1"/>Reset
+            </button>
+        </xpath>
+    </t>
+</templates>
+

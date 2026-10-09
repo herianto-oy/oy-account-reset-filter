@@ -1,0 +1,8 @@
+*.pyc
+*.pyo
+*.pyd
+*.swp
+__pycache__/
+*.log
+.vscode/
+run-odoo.ps1
